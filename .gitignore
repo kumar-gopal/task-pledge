@@ -1,3 +1,13 @@
+# Ignore environment variables
 .env
+
+# Ignore Node.js dependencies
 node_modules/
-config/envConfig
+
+# Ignore logs
+logs/
+*.log
+
+
+# Ignore env config files (optional if generated or sensitive)
+config/envConfig.js
