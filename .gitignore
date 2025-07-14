@@ -5,10 +5,8 @@
 node_modules/
 
 # Ignore logs
-logs/
-*.log
+logs/*.log
 
 
 # Ignore env config files (optional if generated or sensitive)
-src/config/envConfig.js
 .env
